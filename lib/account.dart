@@ -95,7 +95,7 @@ class userAccount extends StatelessWidget {
             Padding(
               padding: EdgeInsets.all(10.0),
               child: Text(
-                'K . K . K . K',
+                'Fundi',
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
                 ),

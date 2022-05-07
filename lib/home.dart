@@ -3,8 +3,8 @@ import 'package:instagram_ui_clone/utilities/bubble_stories.dart';
 import 'package:instagram_ui_clone/utilities/userPosts.dart';
 
 class userHome extends StatelessWidget {
-  final List people = ['Your Story','Tai','Baby Boy','Charity','Luke','Salomon','Mutua'];
-  final List postpeople = ['Clarice','Tai','Baby Boy','Charity','Luke','Salomon','Mutua'];
+  final List people = ['Your Story','Tai','Jedy','Charity','Luke','Salomon','Mutua'];
+  final List postpeople = ['Clarice','Tai','Jedy','Charity','Luke','Salomon','Mutua'];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -17,12 +17,12 @@ class userHome extends StatelessWidget {
             Text('Instagram', style: TextStyle(color: Colors.black),),
             Row(
               children: [
-                      Icon(Icons.add, color: Colors.black,),
+                      Icon(Icons.add_box_outlined, color: Colors.black,),
                       Padding(
                         padding: const EdgeInsets.all(24.0),
                         child: Icon(Icons.favorite, color: Colors.black,),
                       ),
-                      Icon(Icons.share, color: Colors.black,),
+                      Icon(Icons.send, color: Colors.black,),
                       
               ],
             ),
